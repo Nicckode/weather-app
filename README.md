@@ -11,10 +11,6 @@ Aplicación web del clima desarrollada con HTML, CSS y JavaScript puro. Consulta
 - 🧠 JavaScript vanilla sin frameworks
 - 📱 Diseño moderno y responsivo
 
-## 🖼️ Vista previa
-
-![Weather App Screenshot](https://i.imgur.com/6FYxbqO.png)
-
 ## 🔗 Enlace en vivo
 
 👉 [Ver proyecto en línea](https://nicckode.github.io/weather-app/)

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nickzy Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌤️ Weather App</h1>
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter a city..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="weather-info hidden" id="weatherCard">
+      <h2 id="cityName"></h2>
+      <img id="weatherIcon" src="" alt="Weather Icon" />
+      <p id="weatherCondition"></p>
+      <p><strong>Temp:</strong> <span id="temperature"></span>°C</p>
+      <p><strong>Feels like:</strong> <span id="feelsLike"></span>°C</p>
+      <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+      <p><strong>Wind:</strong> <span id="wind"></span> km/h</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
